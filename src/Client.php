@@ -109,6 +109,7 @@ class Client
         $this->engine->close();
 
         $this->isConnected = false;
+        $this->session = null;
 
         return $this;
     }
